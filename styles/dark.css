@@ -33,7 +33,7 @@
 /* Generic styling, regardless of viewport */
 body {
     color: #E9E9E9;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, Cantarell, Roboto, 'Noto Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Cantarell, Ubuntu, Roboto, 'Noto Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .main {
