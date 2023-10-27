@@ -47,7 +47,7 @@ body {
 }
 
 #name {
-    font-weight: 800;
+    font-weight: bold;
     line-height: 100%;
     text-align: center;
 }
