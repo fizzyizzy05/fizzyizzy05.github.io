@@ -32,7 +32,7 @@
 }
 /* Generic styling, regardless of viewport */
 body {
-    color: #ffffff1;
+    color: #ffffff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Cantarell, Ubuntu, Roboto, 'Noto Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -50,6 +50,7 @@ body {
     font-weight: bold;
     line-height: 100%;
     text-align: center;
+    color: #e9beea
 }
 
 img#pfp {
@@ -61,17 +62,22 @@ img#pfp {
     color: #e9e9e9;
     padding: 12px;
     font-family: monospace;
+    font-size: 13px;
     text-align: left;
     border-radius: 10px;
 }
 a#aboutMe {
-    color: #e9e9e9;
+    color: #7fc3ff;
 }
 small#comment {
-    font-size: medium;
+    font-size: 13px;
     color: #a4ff68;
 }
 small#property {
-    font-size: medium;
+    font-size: 13px;
     color: #f390ae;
+}
+
+a#listItem {
+    color: #e9beea;
 }
