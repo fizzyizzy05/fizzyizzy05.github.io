@@ -10,7 +10,7 @@
         width: 575px
     }
     body {
-        background-color: #232323;
+        background-color: #221f21;
     }
     #pfp {
         width: 175px;
@@ -32,12 +32,12 @@
 }
 /* Generic styling, regardless of viewport */
 body {
-    color: #E9E9E9;
+    color: #ffffff1;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Cantarell, Ubuntu, Roboto, 'Noto Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .main {
-    background-color: #353535;
+    background-color: #36333a;
     padding: 35px;
     text-align: left;
 }
