@@ -19,7 +19,7 @@
 /* How to treat the content box on a smaller screen (e.g. a phone or tablet) */
 @media only screen and (max-width: 900px) {
     body {
-        background-color: #353535;
+        background-color: #36333a;
     }
     .main{
         margin: auto;
@@ -58,7 +58,7 @@ img#pfp {
 }
 /* Terminal-looking detail box */
 .aboutMe {
-    background-color: #221f21z;
+    background-color: #221f21;
     color: #e9e9e9;
     padding: 12px;
     font-family: monospace;
