@@ -69,7 +69,7 @@ img#pfp {
 a#aboutMe {
     color: #7fc3ff;
 }
-small#comment {
+small#value {
     font-size: 13px;
     color: #a4ff68;
 }
@@ -78,6 +78,6 @@ small#property {
     color: #f390ae;
 }
 
-a#listItem {
+a {
     color: #e9beea;
 }
