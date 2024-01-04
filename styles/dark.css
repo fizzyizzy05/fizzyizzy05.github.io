@@ -35,24 +35,20 @@ body {
     color: #ffffff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Cantarell, Ubuntu, Roboto, 'Noto Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 .main {
     background-color: #36333a;
     padding: 35px;
     text-align: left;
 }
-
 .top {
     text-align: center;
 }
-
 #name {
     font-weight: 800;
     line-height: 100%;
     text-align: center;
     color: #e9beea
 }
-
 img#pfp {
     border-radius: 100%;
 }
@@ -77,11 +73,9 @@ small.property {
     font-size: 13px;
     color: #f390ae;
 }
-
 a {
     color: #e9beea;
 }
-
 .thing {
     color: #ffffff;
     text-decoration: none;
