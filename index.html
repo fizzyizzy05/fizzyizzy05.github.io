@@ -13,22 +13,28 @@
             </div>
             <div class="aboutMe">
                 'aboutMe' {
-                    <br>&emsp;&emsp;<small id="property">'pronouns'</small>: <small id="value">'she'</small>,<small id="value">'they'</small>,
-                    <br>&emsp;&emsp;<small id="property">'mastodon'</small>: <small id="value"></small><small id="value">'</small><a id="aboutMe" href="https://hachyderm.io/@fizzyizzy05">@fizzyizzy05@hachyderm.io</a><small id="value">'</small>,
-                    <br>&emsp;&emsp;<small id="property">'github'</small>: <small id="value">'</small><a id="aboutMe" href="https://github.com/fizzyizzy05">fizzyizzy05</a><small id="value">'</small>,
-                    <br>&emsp;&emsp;<small id="property">'email'</small>: <small id="value">'izzyjackson05 [at] outlook [.] com'</small>,
+                    <br>&emsp;&emsp;<small class="property">'pronouns'</small>: <small class="value">'she'</small>,<small class="value">'they'</small>,
+                    <br>&emsp;&emsp;<small class="property">'mastodon'</small>: <small class="value"></small><small class="value">'</small><a id="aboutMe" href="https://hachyderm.io/@fizzyizzy05">@fizzyizzy05@hachyderm.io</a><small class="value">'</small>,
+                    <br>&emsp;&emsp;<small class="property">'github'</small>: <small class="value">'</small><a id="aboutMe" href="https://github.com/fizzyizzy05">fizzyizzy05</a><small class="value">'</small>,
+                    <br>&emsp;&emsp;<small class="property">'email'</small>: <small class="value">'izzyjackson05 [at] outlook [.] com'</small>,
                 <br>}
                 <br>
                 <br>'programmingLanguages' {
-                    <br>&emsp;&emsp;<small id="property">'current'</small>: <small id="value">'python'</small>, <small id="value">'C#'</small>, <small id="value">'html'</small>, <small id="value">'css'</small>,
-                    <br>&emsp;&emsp;<small id="property">'learning'</small>: <small id="value">'vala'</small>, <small id="value">'C++'</small>
+                    <br>&emsp;&emsp;<small class="property">'current'</small>: <small class="value">'python'</small>, <small class="value">'C#'</small>, <small class="value">'html'</small>, <small class="value">'css'</small>,
+                    <br>&emsp;&emsp;<small class="property">'learning'</small>: <small class="value">'vala'</small>, <small class="value">'C++'</small>
                 <br>}
             </div>
             <p>I like coding and designing things. I study Computer Science and I'm a fan of Linux and FOSS.</p>
             <h2>Things of interest:</h2>
-            <h3>Binary</h3>
-            <img src="img/binary/binary-screenshot.png">
-            <p>Binary is a new app I'm developing, written in Python and using GTK and Libadwaita widgets. It's an incredibly simple app that converts between two different types of number bases. <a href="https://github.com/fizzyizzy05/binary">See the code on github.</a></p>
+            <a href="#" onclick="if(document.getElementById('binary') .style.display=='none') {document.getElementById('binary') .style.display=''}else{document.getElementById('binary') .style.display='none'}" class="thing">
+                <ul>
+                    <li><h3>Binary</h3></li>
+                </ul>
+            </a>
+            <div id="binary" style="display:none">
+                <img src="img/binary/binary-screenshot.png">
+                <p>Binary is a new app I'm developing, written in Python and using GTK and Libadwaita widgets. It's an incredibly simple app that converts between two different types of number bases. <a href="https://github.com/fizzyizzy05/binary">See the code on github.</a></p>
+            </div>
         </div>
     </body>
 </html>

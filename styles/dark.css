@@ -66,18 +66,23 @@ img#pfp {
     text-align: left;
     border-radius: 10px;
 }
-a#aboutMe {
+a.aboutMe {
     color: #7fc3ff;
 }
-small#value {
+small.value {
     font-size: 13px;
     color: #a4ff68;
 }
-small#property {
+small.property {
     font-size: 13px;
     color: #f390ae;
 }
 
 a {
     color: #e9beea;
+}
+
+.thing {
+    color: #ffffff;
+    text-decoration: none;
 }
