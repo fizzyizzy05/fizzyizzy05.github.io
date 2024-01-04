@@ -3,16 +3,16 @@
     :root {
         --background: #36333a;
         --background-outside: #221f21;
-        --name: #e9beea;
         --foreground: #ffffff;
+        --foreground-colourful: #e9beea;
     }
 }
 @media (prefers-color-scheme: light) {
     :root {
         --background: #fffaff;
         --background-outside: #e6e1e8;
-        --name: #b160b3;
         --foreground: #000000;
+        --foreground-colourful: #b160b3;
     }
 }
 /* How to treat the screen on a big-size display such as a deksktop monitor or laptop */
@@ -64,7 +64,7 @@ body {
     font-weight: 800;
     line-height: 100%;
     text-align: center;
-    color: var(--name);
+    color: var(--foreground-colourful);
 }
 img#pfp {
     border-radius: 100%;
@@ -79,7 +79,7 @@ img#pfp {
     text-align: left;
     border-radius: 10px;
 }
-a.aboutMe {
+a#aboutMe {
     color: #7fc3ff;
 }
 small.value {
@@ -91,9 +91,9 @@ small.property {
     color: #f390ae;
 }
 a {
-    color: #e9beea;
+    color: var(--foreground-colourful);
 }
 .thing {
-    color: var(--foreground);
+    color: var(--foreground-colourful);
     text-decoration: none;
 }
