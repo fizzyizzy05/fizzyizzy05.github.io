@@ -1,3 +1,10 @@
+/* Color variables for light/dark mode */
+:root {
+    --background: #000000;
+    --background-outside: #000000;
+    --name: #000000;
+    --foreground: #000000;
+}
 /* How to treat the screen on a big-size display such as a deksktop monitor or laptop */
 @media only screen and (min-width: 901px) {
     .main {
@@ -10,7 +17,7 @@
         width: 575px
     }
     body {
-        background-color: #221f21;
+        background-color: var(--background-outside);
     }
     #pfp {
         width: 175px;
@@ -19,7 +26,7 @@
 /* How to treat the content box on a smaller screen (e.g. a phone or tablet) */
 @media only screen and (max-width: 900px) {
     body {
-        background-color: #36333a;
+        background-color: var(--background);
     }
     .main{
         margin: auto;
@@ -32,11 +39,11 @@
 }
 /* Generic styling, regardless of viewport */
 body {
-    color: #ffffff;
+    color: var(--foreground);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Cantarell, Ubuntu, Roboto, 'Noto Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .main {
-    background-color: #36333a;
+    background-color: var(--background);
     padding: 35px;
     text-align: left;
 }
@@ -47,7 +54,7 @@ body {
     font-weight: 800;
     line-height: 100%;
     text-align: center;
-    color: #e9beea
+    color: var(--name);
 }
 img#pfp {
     border-radius: 100%;
@@ -77,6 +84,6 @@ a {
     color: #e9beea;
 }
 .thing {
-    color: #ffffff;
+    color: var(--foreground);
     text-decoration: none;
 }
