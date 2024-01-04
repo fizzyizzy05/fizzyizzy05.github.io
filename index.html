@@ -37,20 +37,4 @@
             </div>
         </div>
     </body>
-    <script>
-        var page = document.querySelector(':root');
-        const isDark = window.matchMedia("(prefers-color-scheme: dark)");
-        const isLight = window.matchMedia("(prefers-color-scheme: light)");
-        if (isDark.matches == true) {
-            page.style.setProperty('--background', '#36333a')
-            page.style.setProperty('--background-outside', '#221f21')
-            page.style.setProperty('--name', '#e9beea')
-            page.style.setProperty('--foreground', "#ffffff")
-        } else {
-            page.style.setProperty('--background', '#fffaff')
-            page.style.setProperty('--background-outside', '#e6e1e8')
-            page.style.setProperty('--name', '#b160b3')
-            page.style.setProperty('--foreground', "#000000")
-        }
-    </script>
 </html>

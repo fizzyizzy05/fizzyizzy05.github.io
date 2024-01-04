@@ -1,9 +1,19 @@
 /* Color variables for light/dark mode */
-:root {
-    --background: #000000;
-    --background-outside: #000000;
-    --name: #000000;
-    --foreground: #000000;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #36333a;
+        --background-outside: #221f21;
+        --name: #e9beea;
+        --foreground: #ffffff;
+    }
+}
+@media (prefers-color-scheme: light) {
+    :root {
+        --background: #fffaff;
+        --background-outside: #e6e1e8;
+        --name: #b160b3;
+        --foreground: #000000;
+    }
 }
 /* How to treat the screen on a big-size display such as a deksktop monitor or laptop */
 @media only screen and (min-width: 901px) {
