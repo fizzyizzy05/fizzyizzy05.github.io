@@ -97,3 +97,6 @@ a {
     color: var(--foreground-colourful);
     text-decoration: none;
 }
+#binary-screenshot {
+    width: 100%;
+}
